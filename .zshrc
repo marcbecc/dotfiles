@@ -91,3 +91,4 @@ unset __conda_setup
 # use `man zshbuiltins` to see zsh built-in functions
 # `r` is the same as `fc -e` -- it repeats the last command
 
+alias config='/usr/bin/git --git-dir=/Users/marcbecchetti/.cfg/ --work-tree=/Users/marcbecchetti'
