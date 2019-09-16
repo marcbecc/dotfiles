@@ -37,6 +37,7 @@ alias configrifle='nvim ~/.config/ranger/rifle.conf'
 alias configzsh='nvim ~/.zshrc'
 alias ra=ranger
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias configls='config ls-tree -r master --name-only'
 
 export EDITOR=nvim
 export VISUAL=nvim
