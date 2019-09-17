@@ -99,6 +99,7 @@ Plug 'tomasr/molokai'
 Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim',{'as':'dracula'}
 Plug 'morhetz/gruvbox'
+Plug 'junegunn/seoul256.vim'
 
 set termguicolors
 let g:gruvbox_italic=1
@@ -133,12 +134,16 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 " Plug 'tpope/vim-git'
 " Plug 'airblade/vim-gitgutter'
+" Plug 'junegunn/gv.vim'  "requires vim-fugitive, like gitv
+" Plug 'gregsexton/gitv', {'on': ['Gitv']} "requires vim-fugitive, like gitk
 
 " markdown plugins (vim-markdown requires tabular before it)
 Plug 'godlygeek/tabular'
 " Plug 'plasticboy/vim-markdown'
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+" Plug 'junegunn/goyo.vim'
+" Plug 'fmoralesc/vim-pad'
 
 " make sure to download exuburant Ctags along with this
 Plug 'ludovicchabant/vim-gutentags'
