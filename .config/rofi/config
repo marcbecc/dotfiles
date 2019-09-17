@@ -1,0 +1,10 @@
+rofi.theme: /usr/share/rofi/themes/gruvbox-dark.rasi
+rofi.combi-modi: window,drun,ssh
+rofi.kb-remove-to-EOL: 
+rofi.kb-row-tab: 
+rofi.kb-accept-entry: Return
+rofi.kb-row-up: Control+k
+rofi.kb-row-down: Control+j
+rofi.kb-mode-next: Tab
+rofi.font: Droid Sans Mono 12
+
