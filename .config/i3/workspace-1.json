@@ -23,13 +23,13 @@
                        "x": 0,
                        "y": 0
                     },
-                    "name": "urxvt",
+                    "name": "kitty",
                     "percent": 1,
                     "swallows": [
                        {
-                           "class": "^URxvt$",
-                           "instance": "^urxvt$",
-                           "title": "^urxvt$"
+                           "class": "^kitty$",
+                           "instance": "^kitty$",
+                           "title": "^kitty$"
                        }
                     ],
                     "type": "con"
@@ -54,13 +54,13 @@
                        "x": 0,
                        "y": 0
                     },
-                    "name": "urxvt",
+                    "name": "kitty",
                     "percent": 0.5,
                     "swallows": [
                        {
-                           "class": "^URxvt$",
-                           "instance": "^urxvt$",
-                           "title": "^urxvt$"
+                           "class": "^kitty$",
+                           "instance": "^kitty$",
+                           "title": "^kitty$"
                        }
                     ],
                     "type": "con"

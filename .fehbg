@@ -1,0 +1,2 @@
+#!/bin/sh
+'feh' '--bg-fill' '/home/marc/Pictures/Screenshot (9).png' 

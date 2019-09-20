@@ -1,10 +1,11 @@
 [colors]
-background = ${xrdb:color0:#222}
+background = #282828
+; background = ${xrdb:color0:#222}
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = #ebdbb2
 foreground-alt = #555
-primary = #FFF
+primary = #ebdbb2
 secondary = #B2535B
 alert = #B2535B
 
@@ -111,14 +112,17 @@ border-color = #00000000
 ;------------;
 
 width = 100%
-height = 40
+height = 20
 offset-y = 0
 offset-x = 0
 
 border-top-size = 0
-border-bottom-size = 10
-border-right-size = 10
-border-left-size = 10
+; border-bottom-size = 10
+border-bottom-size = 0
+; border-right-size = 10
+border-right-size = 0
+; border-left-size = 10
+border-left-size = 0
 
 ;----------;
 ; LOCATION ;
@@ -140,11 +144,11 @@ font-4 = "Scientifica:size=11;3"
 ; COLORS ;
 ;--------;
 
-background = 0
+background = #282828
 background-alt = #555
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #E1D4AE
+foreground = #ebdbb2
+foreground-alt = #ebdbb2
+primary = #ebdbb2
 secondary = #e60053
 alert = #B2535B
 
@@ -160,9 +164,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-modules-left = i3
-modules-center = spotify
-modules-right = filesystem memory cpu temperature
+modules-left = i3 powermenu pulseaudio 
+modules-center = spotify xwindow
+modules-right = filesystem memory cpu temperature wlan date
 
 ;---------;
 ; MODULES ;
@@ -361,8 +365,8 @@ interval = 5
 date =
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = %I:%M
+time-alt = %I:%M:%S
 
 format-prefix =  
 format-prefix-foreground = ${colors.primary}

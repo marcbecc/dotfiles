@@ -104,7 +104,7 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install paywall bypass extension from iamadamdev's github page
 * deleted ~/keyring.deb
 * install neovim, visual studio code, qt creator, pycharm
-(To use neovim fully, install the neovim python package in your environments)
+**(To use neovim fully, install the neovim python package in your environments)**
 * install ranger, copy default config, set \$EDITOR variable to vim/nvim in zshrc
 * set image preview in ranger with w3m
 * installed sxiv
@@ -139,7 +139,8 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install ffmpeg
 * install maim
 * install meson
-* install yadm
+* install GNU stow
+* install yadm, dotdrop, chezmoi, mackup (can skip, these are all dotfile managers)
 
 #### URxvt
 
