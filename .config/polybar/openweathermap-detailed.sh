@@ -25,9 +25,9 @@ get_icon() {
 }
 
 KEY="0867dd59b3bfcbdf3f98937d4df8c340"
-CITY="3448639"
-UNITS="metric"
-SYMBOL="°C"
+CITY="4984247"
+UNITS="imperial"
+SYMBOL="°F"
 
 if [ ! -z $CITY ]; then
     weather=$(curl -sf "http://api.openweathermap.org/data/2.5/weather?APPID=$KEY&id=$CITY&units=$UNITS")

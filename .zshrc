@@ -39,6 +39,7 @@ alias configranger="nvim $HOME/.config/ranger/rc.conf"
 # dotfile management in $HOME using git
 alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias configls="config ls-tree -r ubuntu --name-only"
+alias configview="config log --graph --pretty=oneline --abbrev-commit"
 
 # open the bc calculator with floating point as the default
 alias bc='bc -l' 
@@ -50,6 +51,7 @@ alias n2="dvtm -m '^h' nnn nnn"
 
 # open Ubuntu settings, fixed for i3
 alias settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
+alias driversettings="software-properties-gtk --open-tab=4"
 
 alias note="vim $HOME/notes.md"
 # custom 'git log' commands 
@@ -64,6 +66,13 @@ alias zathura="zathura -c /home/marc/.config/zathura"
 # weather report, location is retrieved from /etc/timezone
 alias weather='curl wttr.in'
 
+# use pipes.sh with 3 pipes and set refresh at 3000 characters (remove color 0 because it's background)
+# alias pipe='pipes.sh -f 30 -p 8 -r 3000 $(for i in {1..9}; do echo -n "-c $i "; done)'
+alias pipe="pipes.sh -f 30 -p 8 -r 3000 $(seq -f '-c %.0f' -s ' ' 1 9)"
+
+# play chess, uses xboard, polyglot, and stockfish
+alias chess='xboard -fUCI -fcp stockfish -sUCI -scp stockfish'
+
 # disable autocorrect 
 unsetopt correct
 unsetopt correctall
@@ -77,7 +86,7 @@ export NNN_NOTE="$HOME/notes.md"
 # Ubuntu specific
 # enable syntax highlighting with less using GNU source-highlight 
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
-export LESS=' -R '
+export LESS=' -R --ignore-case'
 
 # nnn - enable enter directory on quit for zsh - make sure .config/nnn/ exists (see command)
 n()

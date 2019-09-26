@@ -468,7 +468,8 @@ animation-discharging-framerate = 750
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
+warn-temperature = 80
 
 format = <ramp> <label>
 format-foreground = ${colors.primary}
@@ -476,8 +477,8 @@ format-underline =
 format-warn = <ramp> <label-warn>
 format-warn-underline = 
 
-label =  TEMPERATURE %temperature-c%
-label-warn =  TEMPERATURE %temperature-c%
+label =  TEMP %temperature-c%
+label-warn =  TEMP %temperature-c%
 label-warn-foreground = ${colors.secondary}
 label-foreground = ${colors.primary}
 
@@ -493,7 +494,7 @@ format-spacing = 1
 
 label-open = "  "
 label-open-foreground = ${colors.primary}
-label-close = "  cancelar "
+label-close = "  cancel "
 label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.primary}

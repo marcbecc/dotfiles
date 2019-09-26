@@ -128,9 +128,9 @@ Plug 'noahfrederick/vim-hemisu' " like noctu theme but works with gui too
 Plug 'dylanaraps/wal.vim' " works with pywal (noctu might be better..)
 
 " change cursor shape in different modes (only for VTE compatible terms)
-let &t_SI = "\<Esc>[5 q"
-let &t_SR = "\<Esc>[3 q"
-let &t_EI = "\<Esc>[1 q"
+let &t_SI .= "\<Esc>[6 q" " 5 for blinking bar, 6 solid
+let &t_SR .= "\<Esc>[4 q" " 3 for underscore, 4 solid
+let &t_EI .= "\<Esc>[2 q" " 1 for blinking block, 2 for solid
 
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'

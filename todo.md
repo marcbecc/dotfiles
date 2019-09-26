@@ -60,16 +60,16 @@
   - [ ] How to Suspend/Lock/Reboot/Shutdown?
   - [ ] Scratchpad / global hotkey terminal
 
-- [ ] Switch to Kitty
+- [x] Switch to Kitty
 
   - [ ] Annoying cursor display behavior -- possibly related to blinking cursor
   - [ ] Add key binding to make Control+backspace delete back one word 
-  - [ ] Make it the default terminal (get it working well first)
+  - [x] Make it the default terminal (get it working well first)
   - [ ] Tabs? (not that important for i3)
 
-- [ ] Get copy/paste working well in Vim and terminals 
+- [x] Get copy/paste working well in Vim and terminals 
 
-  - [ ] urxvt -- extra characters when copying text via ctrl+c in Firefox and pasting via ctrl+v+c in urxvt
+  - [x] urxvt -- extra characters when copying text via ctrl+c in Firefox and pasting via ctrl+v+c in urxvt
   - [x] vim -- get working with system clipboard
 
 - [x] Switch to Neovim 
@@ -92,14 +92,16 @@
 
 - [ ] Change color of links in Zathura to make them more visible
 
-- [ ] Manage Dotfiles on github ** 
+- [x] Manage Dotfiles on github ** 
 
   - [ ] and/or iCloud
 
-- [ ] Add space in rofi (eg after "combi" and "window" and "run")
+- [x] Add space in rofi (eg after "combi" and "window" and "run")
 
 - [ ] How to get man page if there are 2 entries with the same name? -- `man history` gives the man entry for the "GNU history library" but not the history command, which should also have a man entry
 
 - [ ] add custom local html newtab hack to Firefox
 
-- [ ] 
+- [ ] Get temperature working on polybar
+
+- [ ] Get shutdown menu working on polybar

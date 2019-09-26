@@ -107,18 +107,19 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 **(To use neovim fully, install the neovim python package in your environments)**
 * install ranger, copy default config, set \$EDITOR variable to vim/nvim in zshrc
 * set image preview in ranger with w3m
-* installed sxiv
-* installed awesomewm
-* installed source-highlight and modified zshrc to make less have syntax highlighting
-* installed qtile -- build from source in future
-* installed nnn
+* install sxiv
+* install awesomewm
+* install typora
+* install source-highlight and modified zshrc to make less have syntax highlighting
+* install qtile -- build from source in future
+* install nnn
 * set up change directory on exit in nnn -- see the github page under misc/quitcd/zsh. make sure ~/.config/nnn/ exists (or whatever the appropriate location is)
-* installed tizonia via snap -- it's a CLI for spotify and other services
-* installed rofi
+* install tizonia via snap -- it's a CLI for spotify and other services
+* install rofi
 * added line in i3 configuration to replace dmenu with it.
-* installed papirus icon themes 
-* installed universal-ctags (a maintained version of exuberant ctags) from source, to use with vim-gutentags
-* installed zathura pdf reader and the gruvbox zathurarc (curl it in ~/.config/zathura) 
+* install papirus icon themes 
+* install universal-ctags (a maintained version of exuberant ctags) from source, to use with vim-gutentags
+* install zathura pdf reader and the gruvbox zathurarc (curl it in ~/.config/zathura) 
 * install tmux and dvtm (2 terminal multiplexers)
 * install surf (to build from source, first `sudo apt install --no-install-recommends build-essential libgtk-3-dev libgcr-3-dev libwebkit2gtk-4.0-dev` then`sudo make install clean`)
 * install lynx
@@ -133,14 +134,30 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install transmission
 * install gitk 
 * install gpustat (for nvidia cards) - pip install gpustat (do for all conda environments)
+* install lm-sensors, then run `sudo sensors-detect` and say `yes` to all (used by polybar for example)
+* install psensor (gui for lm-sensors)
 * install tldr
 * install pandoc, xelatex (package name texlive-xetex)
 * install parallel
 * install ffmpeg
 * install maim
+* install imagemagick
+* install scrot
 * install meson
 * install GNU stow
-* install yadm, dotdrop, chezmoi, mackup (can skip, these are all dotfile managers)
+* (skippable) install yadm, dotdrop, chezmoi, mackup (can skip, these are all dotfile managers)
+* install zeal (see also: devdocs.io)
+* install 2048-qt
+* install jq
+* install python-apt, steam
+* install xboard, polyglot, stockfish
+* install sourcetree
+* install gimp
+* install blender
+* install bazel
+* install mkdocs
+* install makeself
+
 
 #### URxvt
 
@@ -189,6 +206,11 @@ to set this as default:
 #### Unresolved issues that I've given up on for the meantime
 * Zathura not loading zathurc, so I aliased it to point to the directory 
 
+#### zsh
+
+info about extra (user) contributions to zsh: `man zshcontrib`
+
+help files for zsh builtins: `run-help [builtin command]`
 
 #### Scratch notes
 
