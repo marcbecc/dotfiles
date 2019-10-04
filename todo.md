@@ -46,13 +46,17 @@
 
 - [x] Ranger - open images inline?
 
-- [ ] install/setup polybar
+- [x] install/setup polybar
 
-  :negative_squared_cross_mark:	Throwing unknown character warnings when ran from command line
+  :ballot_box_with_check:	~~Throwing unknown character warnings when ran from command line~~ 
+
+  ​	:arrow_right: Had to install Font Awesome icons
 
 - [x] install/setup rofi
 
 - [ ] vim/neovim is highlighting underscores? (for markdown files at least)
+
+- [ ] Annoying cursor display behavior in vim/neovim -- ~~possibly related to blinking cursor~~
 
 - [ ] Switch to Qtile
 
@@ -62,11 +66,10 @@
 
 - [x] Switch to Kitty
 
-  - [ ] Annoying cursor display behavior -- possibly related to blinking cursor
-  - [ ] Add key binding to make Control+backspace delete back one word 
+  - [ ] Add key binding to make Control+backspace delete back one word -- maybe can do this for zsh in general? 
   - [x] Make it the default terminal (get it working well first)
-  - [ ] Tabs? (not that important for i3)
-
+  - [x] Tabs? (not that important for i3)
+  
 - [x] Get copy/paste working well in Vim and terminals 
 
   - [x] urxvt -- extra characters when copying text via ctrl+c in Firefox and pasting via ctrl+v+c in urxvt
@@ -74,9 +77,16 @@
 
 - [x] Switch to Neovim 
 
-  :negative_squared_cross_mark:	~~Colors are broken when using `nvim` with URXvt?~~
+  :ballot_box_with_check:	~~Colors are broken when using `nvim` with URXvt?~~
 
 - [ ] Have menus use Ctrl+j/k for up and down in neovim, vim, and VSCode
+
+  - [ ] neovim/vim
+  - [ ] VSCode
+  - [ ] Pycharm
+  - [ ] qt creator
+  - [ ] qutebrowser
+  - [ ] typora
 
 - [x] Best auto complete for neovim and vim? mucomplete? --> coc.nvim
 
@@ -84,17 +94,19 @@
 
   - [ ] record screencast of it w/ input displayed (using ctrl+alt+shift+r and xev, showkey, or screenkey)
   
-- [ ] Get various bin folders in order (~/.local/bin , /usr/local/bin, /bin, ~/bin, etc...)
+- [ ] Get various bin folders in order (~/.local/bin , /usr/local/bin, /bin, ~/bin, etc...) -- check XDG / freedesktop.org standards
 
 - [ ] Set up remote server on desktop to run ML software and Jupyter stuff from Macbook
 
-- [ ] Zathura isn't loading zathurarc file??? Should be gruvbox theme
+- [ ] Zathura isn't loading zathurarc file??? -- just made alias to load it explicitly
 
 - [ ] Change color of links in Zathura to make them more visible
 
+  doesn't seem possible currently?
+
 - [x] Manage Dotfiles on github ** 
 
-  - [ ] and/or iCloud
+  - [ ] and/or iCloud (can keep backup there I guess)
 
 - [x] Add space in rofi (eg after "combi" and "window" and "run")
 
@@ -102,6 +114,35 @@
 
 - [ ] add custom local html newtab hack to Firefox
 
-- [ ] Get temperature working on polybar
+- [x] Get temperature working on polybar
 
-- [ ] Get shutdown menu working on polybar
+- [x] Get shutdown menu working on polybar
+
+- [ ] Use gruvbox colors in qutebrowser
+
+- [ ] How to search tabs in qutebrowser (like omnibar with vimium extension)?
+
+
+
+#### Directory layout for media files to sync/backup on all platforms
+
+-   :file_folder: MyDocuments
+  - :file_folder: TextBooks
+  - :file_folder: Manuals
+  - :file_folder: cheatsheets
+  - :file_folder: ebooks
+  - :file_folder: Mendeley Library
+- :file_folder: MySamples
+  - :file_folder: Piezo
+  - :file_folder: Percussion
+    - :file_folder: Drum Machines
+    - :file_folder: Drum Kits
+    - :file_folder: Misc​
+  - :file_folder: ​breaks
+  - :file_folder: Synths
+  - :file_folder: Real Instruments​
+  - :file_folder: ​SoundFX
+- :file_folder: MyPictures
+  - :file_folder: Wallpapers
+  - :file_folder: Random
+  - :file_folder: Personal

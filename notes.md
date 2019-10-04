@@ -157,6 +157,8 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install bazel
 * install mkdocs
 * install makeself
+* install xbindkeys, xautomations, xvkhd
+* install pepper-flash (flash player for chromium): `sudo apt-get install pepperflashplugin-nonfree` (to update, run update-pepperflashplugin-nonfree --install)
 
 
 #### URxvt
@@ -211,6 +213,9 @@ to set this as default:
 info about extra (user) contributions to zsh: `man zshcontrib`
 
 help files for zsh builtins: `run-help [builtin command]`
+
+#### program ideas
+
 
 #### Scratch notes
 

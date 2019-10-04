@@ -230,7 +230,10 @@ bindsym F12 [instance="scratchpad_urxvt"] scratchpad show
 # requires root login to work -- switch to dbus-send instead of systemctl to change
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (p) shutdown
 exec --no-startup-id feh --bg-fill '/home/marc/Pictures/Screenshot (9).png'
-set $Locker i3lock -i '/home/marc/Pictures/newScreenst9.png' && sleep 1
+# To scale images to fill screen for i3lock, use imagemagick's `convert` tool:
+# `convert -scale 2560x1440p source-image.png lockscreen.png`
+# To find dimension of monitor: `xdpyinfo | grep dimensions`
+set $Locker i3lock -i '/home/marc/Pictures/Screenshot9_1440p.png' && sleep 1
 mode "$mode_system" {
     bindsym l exec --no-startup-id $Locker, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
