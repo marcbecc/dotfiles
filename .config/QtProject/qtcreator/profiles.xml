@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProfiles>
-<!-- Written by QtCreator 4.9.2, 2019-09-29T18:12:42. -->
+<!-- Written by QtCreator 4.10.0, 2019-10-04T02:04:13. -->
 <qtcreator>
+ <data>
+  <variable>Kit.IrrelevantAspects</variable>
+  <valuelist type="QVariantList"/>
+ </data>
  <data>
   <variable>Profile.0</variable>
   <valuemap type="QVariantMap">
@@ -35,6 +39,7 @@
     <value type="QString" key="QtPM4.mkSpecInformation"></value>
     <value type="int" key="QtSupport.QtInformation">2</value>
    </valuemap>
+   <value type="QString" key="PE.Profile.DeviceTypeForIcon"></value>
    <value type="QString" key="PE.Profile.Icon"></value>
    <value type="QString" key="PE.Profile.Id">{f4cea534-cfee-4aac-9226-17fdc09f3ecf}</value>
    <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>

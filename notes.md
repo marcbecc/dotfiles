@@ -159,6 +159,7 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install makeself
 * install xbindkeys, xautomations, xvkhd
 * install pepper-flash (flash player for chromium): `sudo apt-get install pepperflashplugin-nonfree` (to update, run update-pepperflashplugin-nonfree --install)
+* install llvm, lld, clang
 
 
 #### URxvt
