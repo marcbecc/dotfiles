@@ -122,6 +122,22 @@
 
 - [ ] How to search tabs in qutebrowser (like omnibar with vimium extension)?
 
+- [ ] How to save session in qutebrowser?
+
+- [ ] Fix wlan module in polybar
+
+- [ ] add custom commands to rofi
+
+- [ ] hacking rofi in general..
+
+- [ ] how to make .desktop files (to use with drun in rofi)?
+
+- [ ] change current tab color in i3
+
+- [ ] Add GPU usage script in polybar
+
+- [ ] map forward/backward mouse buttons in zathura?
+
 
 
 #### Directory layout for media files to sync/backup on all platforms
