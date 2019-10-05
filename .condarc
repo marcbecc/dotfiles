@@ -1,0 +1,7 @@
+ssl_verify: true
+channels:
+  - defaults
+  - conda-forge
+  - soumith
+auto_activate_base: true
+channel_priority: flexible

@@ -26,6 +26,8 @@ alias ra='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; c
 
 alias vscode='code'
 alias vsc='code'
+alias vim='nvim -p'
+alias vimdiff='nvim -d'
 
 alias configi3="nvim $HOME/.config/i3/config"
 alias confignvim="nvim $HOME/.vimrc"
@@ -37,14 +39,12 @@ alias configzsh="nvim $HOME/.zshrc"
 alias configranger="nvim $HOME/.config/ranger/rc.conf"
 
 # dotfile management in $HOME using git
-alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-alias configls="config ls-tree -r ubuntu --name-only"
-alias configview="config log --graph --pretty=oneline --abbrev-commit"
+alias dot="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias dotls="config ls-tree -r ubuntu --name-only"
+alias dotview="config log --graph --pretty=oneline --abbrev-commit"
 
 # open the bc calculator with floating point as the default
 alias bc='bc -l' 
-alias vim='nvim'
-alias vimdiff='nvim -d'
 
 # open 2 instances of nnn in dual-pane mode with dvtm 
 alias n2="dvtm -m '^h' nnn nnn"
@@ -54,6 +54,8 @@ alias settings="env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 alias driversettings="software-properties-gtk --open-tab=4"
 
 alias note="vim $HOME/notes.md"
+alias todo="typora $HOME/todo.md"
+
 # custom 'git log' commands 
 alias gitview='git log --graph --oneline --all'
 alias gitview2='git log --graph --pretty=oneline --abbrev-commit'

@@ -122,7 +122,7 @@
 
 - [ ] How to search tabs in qutebrowser (like omnibar with vimium extension)?
 
-- [ ] How to save session in qutebrowser?
+- [x] How to save session in qutebrowser? -- use `:w <session name>` to save, and `:session-load <session name>` to load
 
 - [ ] Fix wlan module in polybar
 
@@ -132,11 +132,15 @@
 
 - [ ] how to make .desktop files (to use with drun in rofi)?
 
-- [ ] change current tab color in i3
+- [x] change current tab color in i3
 
 - [ ] Add GPU usage script in polybar
 
 - [ ] map forward/backward mouse buttons in zathura?
+
+- [ ] How to open url links in pdfs in zathura?
+
+- [ ] 
 
 
 

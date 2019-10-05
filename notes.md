@@ -75,6 +75,7 @@ To enable exFat drives, do
 
 Install custom binaries in `/usr/local/bin` for all users. 
 Personal custom binaries should go into `~/bin`
+Have a `~/scripts` folder and a `~/repos` folder for git repos
 
 --- borked conda installation fix
 installed separate miniconda and ran it's conda 
@@ -160,6 +161,8 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install xbindkeys, xautomations, xvkhd
 * install pepper-flash (flash player for chromium): `sudo apt-get install pepperflashplugin-nonfree` (to update, run update-pepperflashplugin-nonfree --install)
 * install llvm, lld, clang
+* install libboost-all-dev, cmake
+* install pkg-config libncursesw5-dev libreadline6-dev (required for building nnn by source)
 
 
 #### URxvt

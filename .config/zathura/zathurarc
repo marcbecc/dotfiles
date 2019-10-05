@@ -1,4 +1,4 @@
-set font                        "Fira Mono 8"
+set font                        "Droid Sans Mono 12"
 set default-bg                  "#282828" #00
 set default-fg                  "#ebdbb2" #01
 
@@ -38,6 +38,9 @@ set recolor-keephue "false"
 
 set selection-clipboard "clipboard"
 
+# show statusbar and vertical scrollbar
+set guioptions vs
+
 # keybindings
 map [fullscreen] a adjust_window best-fit
 map [fullscreen] s adjust_window width
@@ -47,3 +50,6 @@ map [fullscreen] j scroll down
 map [fullscreen] k scroll up
 map [fullscreen] h navigate previous
 map [fullscreen] l navigate next
+
+map <Button8> navigate previous
+map <Button9> navigate next
