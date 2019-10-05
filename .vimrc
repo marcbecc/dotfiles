@@ -143,7 +143,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-unimpaired'
 " Plug 'tpope/vim-vinegar'
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 Plug 'w0rp/ale'
 Plug 'davidhalter/jedi-vim'
 Plug 'jiangmiao/auto-pairs'
@@ -158,6 +158,8 @@ Plug 'tpope/vim-fugitive'
 " Plug 'airblade/vim-gitgutter'
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 " This is causing some weird syntax highlighting 
 " Plug 'vim-pandoc/vim-pandoc' "also for markdown support
 " Plug 'vim-pandoc/vim-pandoc-syntax'

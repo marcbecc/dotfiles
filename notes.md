@@ -163,6 +163,7 @@ Fromm command line, to open current directory in Ubuntu file explorer (nautilus)
 * install llvm, lld, clang
 * install libboost-all-dev, cmake
 * install pkg-config libncursesw5-dev libreadline6-dev (required for building nnn by source)
+* install doxygen
 
 
 #### URxvt
